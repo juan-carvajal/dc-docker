@@ -1,8 +1,8 @@
 from typing import Union,List
 
 from fastapi import FastAPI
-from app.models.weather import Weather
-from app.pred_models.reglog import get_reglog_prediction
+from models.weather import Weather
+from pred_models.reglog import get_reglog_prediction
 import pandas as pd
 
 app = FastAPI()

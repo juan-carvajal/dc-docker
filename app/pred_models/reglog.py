@@ -1,6 +1,6 @@
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
-from app.model_store.store import get_model,save_model
+from model_store.store import get_model,save_model
 
 
 candidates = {'gmat': [780,750,690,710,680,730,690,720,740,690,610,690,710,680,770,610,580,650,540,590,620,600,550,550,570,670,660,580,650,660,640,620,660,660,680,650,670,580,590,690],
